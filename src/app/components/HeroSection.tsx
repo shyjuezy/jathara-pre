@@ -4,8 +4,8 @@ import Link from 'next/link'
 
 export function HeroSection() {
   return (
-    <div className="relative h-[50vh]">
-      <Gradient className="absolute inset-2 bottom-0 rounded-4xl ring-1 ring-inset ring-black/5 rounded-xl" />
+    <div className="relative h-[50vh] min-h-[20rem]">
+      <Gradient className="absolute inset-2 rounded-xl ring-1 ring-inset ring-black/5 h-full" />
       <div className="relative container mx-auto px-4 text-center h-full flex flex-col justify-center items-center">
         <h1 className="text-4xl md:text-5xl font-bold text-gray-700 mb-4 font-serif">Welcome to Jathara</h1>
         <h3 className="text-2xl md:text-3xl font-bold text-gray-700 mb-4">Grand Opening Soon...</h3>
