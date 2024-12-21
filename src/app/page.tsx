@@ -10,6 +10,7 @@ export default function Home() {
       <main className="flex-grow">
         <HeroSection />
         <AboutSection />
+
       </main>
       <Footer />
     </div>
