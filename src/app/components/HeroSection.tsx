@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import { Button } from '@/components/ui/button'
-import { Gradient } from '@/components/gradient'
+// import { Gradient } from '@/components/gradient'
 import Link from 'next/link'
 
 export function HeroSection() {
