@@ -1,5 +1,5 @@
 import { Header } from '@/app/components/Header'
-import { Footer } from '@/app/components/Footer'
+// import { Footer } from '@/app/components/Footer'
 import { HeroSection } from '@/app/components/HeroSection'
 import { AboutSection } from '@/app/components/AboutSection'
 // import { Gallery } from '@/app/components/gallery'
@@ -13,7 +13,7 @@ export default function Home() {
         <AboutSection />
         {/*<Gallery />*/}
       </main>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   )
 }
