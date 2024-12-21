@@ -1,5 +1,5 @@
 "use client";
-
+// add react import
 import Image from "next/image";
 import { images, type GalleryImage } from "@/data/gallery-images";
 import { useState } from "react";
@@ -76,3 +76,4 @@ export function Gallery() {
     </>
   );
 }
+
