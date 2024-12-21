@@ -93,22 +93,6 @@ export function Footer() {
                   />
                 </svg>
               </Link>
-              {/* <Link
-                href="https://instagram.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-primary transition-transform hover:scale-110 duration-200"
-              >
-                <Instagram size={24} />
-              </Link>
-              <Link
-                href="https://twitter.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-primary transition-transform hover:scale-110 duration-200"
-              >
-                <X size={24} />
-              </Link> */}
             </div>
           </div>
         </div>
