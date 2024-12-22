@@ -8,7 +8,7 @@ import Link from "next/link";
 export function HeroSection() {
   return (
     <>
-      <div className="relative w-full h-[50vh] min-h-[24rem]">
+      <div className="relative w-full h-[50vh] min-h-[24rem] mb-16">
         {/* Image */}
         <Image
           src="/hero.jpg"
