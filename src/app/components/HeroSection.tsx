@@ -1,7 +1,9 @@
-import Image from 'next/image'
-import { Button } from '@/components/ui/button'
+"use client";
+
+import Image from "next/image";
+import { Button } from "@/components/ui/button";
 // import { Gradient } from '@/components/gradient'
-import Link from 'next/link'
+import Link from "next/link";
 
 export function HeroSection() {
   return (
@@ -32,7 +34,8 @@ export function HeroSection() {
           <div className="my-4">
             <div className="bg-primary text-primary-foreground py-2 px-6 rotate-[-2deg] shadow-md mb-8 font-serif">
               <p className="text-xl text-gray-100">
-                Now offering<span className="text-4xl font-bold"> 20%</span> off catering orders
+                Now offering<span className="text-4xl font-bold"> 20%</span> off
+                catering orders
               </p>
             </div>
           </div>
@@ -40,11 +43,20 @@ export function HeroSection() {
             asChild
             className="bg-white text-gray-900 hover:bg-primary hover:text-gray-100 border-none transition-all duration-300"
           >
-            <Link href="#contact" scroll={false}>Contact Us</Link>
+            <Link
+              href="#contact"
+              onClick={(e) => {
+                e.preventDefault();
+                document
+                  .getElementById("contact")
+                  ?.scrollIntoView({ behavior: "smooth", block: "start" });
+              }}
+            >
+              Contact Us
+            </Link>
           </Button>
         </div>
       </div>
     </>
-  )
+  );
 }
-
